@@ -1,0 +1,104 @@
+# STM32CubeIDE specific files
+.vscode/
+.metadata/
+.pdm/
+.recommenders/
+loadLibraries.txt
+/*.launch
+/*.settings
+/*.webresources
+/*.ide
+
+# STM32CubeMX specific files
+*.ioc
+/Inc/
+/Src/
+/Drivers/
+
+# Keil uVision specific files
+*.axf
+*.bak
+*.dep
+*.dsm
+*.hex
+*.htm
+*.lst
+*.map
+*.o
+*.plg
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+
+# IAR Embedded Workbench specific files
+*.ewp
+*.ewd
+*.ewt
+*.ewd
+*.map
+*.srec
+*.lnp
+*.dep
+*.ewl
+*.ewd
+*.ewr
+*.ewp.bak
+*.ewd.bak
+*.eww
+
+# Arduino specific files
+*.elf
+*.bin
+*.hex
+*.eep
+*.ino.*
+*.fwu
+
+# Object files
+*.o
+*.obj
+
+# Linker output
+*.map
+*.lst
+*.out
+
+# Libraries
+/libraries/
+
+# Build output
+/build/
+/target/
+
+# Backup files
+*.bak
+*.old
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Python virtual environments
+venv/
+__pycache__/
+*.py[cod]
+
+# Node.js dependencies
+node_modules/
+
+# Operating system files
+.DS_Store
+Thumbs.db
